@@ -1,35 +1,55 @@
-Financial Dashboard Insights   
-This dashboard provides key insights into the sales and profit performance of the business. The visualizations offer a comprehensive view of different metrics such as total sales, profit, gross margin, product performance, and segment-wise breakdowns.
+This report provides a detailed analysis of the company's financial performance through two key lenses: Sales and Profit. To make the report more interactive, two buttons labeled "Sales" and "Profit" are provided . These buttons allow the reader to switch between the Sales and Profit data insights. By clicking on the respective button, the reader can focus on the desired data set:  
+Sales Button: Presents insights into overall sales trends, including total sales, sales over time, and sales by product and discount band.    
+Profit Button: Displays data focused on profitability, such as total profit, gross margin, profit by product, and profit by segment.
+These buttons offer a user-friendly navigation experience, allowing for quick access to the most relevant financial metrics depending on the focus of the analysis.  
+Interactive Elements (Buttons & Filters):  
+1 .Country Filter
+Visual:  Button Toggle
+Options: Canada, France, Germany, Mexico, United States, and others.  
+Purpose: Allows users to filter sales and profit data by country to analyze geographic performance and trends.  
+2. Year Filter
+Visual: Toggle Button (2013, 2014)   
+Purpose: Provides the ability to view sales and profit data for different years, enabling year-over-year comparison and trend analysis.
 
-1. Overview of the Financial [CANADA]    
-Total Profit: The business has generated a total profit of $803.67K.    
-Gross Margin: The gross margin stands at 25.9%, showing a moderate profit after accounting for the cost of goods sold (COGS). This indicates there is room for improvement in cost management.
-2. Profit by Segment
-The largest contributor to profit is the Channel Partners segment, while Small Businesses contribute the least.
-Opportunity: The focus on channel partners has been beneficial, but increasing efforts in the small business segment may lead to higher returns.
-3. Profit by Product
-The most profitable products are: 
-Paseo
-VTT
-Amarilla
-Insight: Paseo generates the highest profit, making it a key product for the business. Montana and Carretera have significantly lower profits and may need attention for future strategy adjustments.
-4. Top 3 Products by Units Sold
-Paseo (20,783 units sold), Amarilla (7,510 units sold), and VTT (10,606 units sold) are the top-performing products in terms of volume.
-These products are also leaders in profit generation, suggesting a strong market demand.
-5. Sales Overview
-Total sales amount to $5.18M, with sales increasing between October and December.
-Sales by Segment: The Midmarket and Small Business segments show steady growth in sales, especially towards the end of the year, indicating seasonal or campaign-based success.
-6. Sales vs. COGS (Cost of Goods Sold)
-The products Paseo, Amarilla, and Velo have high sales-to-COGS ratios, signifying higher profitability.
-Products like VTT show tighter margins, suggesting they are less profitable or more costly to produce.
-7. Sales by Discount Band
-A majority of sales occur in the Medium Discount Band, indicating customers are responding well to moderate discounts.
-Insight: Lower sales from the High Discount Band suggest that higher discounts do not significantly boost sales, and may erode profit margins.
-8. Units Sold by Product
-Paseo and Amarilla are the top performers in terms of units sold, further supporting their role as key drivers of both sales and profit.
-Opportunity: Products like Carretera and Montana have lower sales volumes, which may indicate the need for promotional strategies or product evaluation.
-9. Actionable Insights:
-Focus on promoting high-performing products like Paseo and Amarilla.
-Consider strategies to reduce costs for lower-margin products like VTT.
-Evaluate underperforming segments (e.g., Small Businesses) for growth potential or product repositioning.
-Maintain moderate discounts, as they generate the highest volume of sales without reducing profitability significantly. 
+Here are some Key insights on sales visuals;   
+1.Total Sales  
+Visual:Card   
+Purpose:It presents the sum of all sales for the selected filter(country,year)   
+2. Sales Over Time   
+Visual: Line Chart   
+Description: This chart shows the trend of sales from September to December across five business segments: Channel Partners, Enterprise, Government, Midmarket, and Small Business.  
+Purpose: To identify which business segments are driving sales growth over time.   
+3. Sales and COGS (Cost of Goods Sold) by Product  
+ Visual: Clustered Column Chart    
+Description: This chart compares sales and COGS for different products: Amarilla, Carretera, Montana, Paseo, Velo, and VTT.    
+Purpose: To evaluate product performance and profitability by comparing sales against the cost to produce the goods.   
+4. Sales by Discount Band     
+Visual: Bar Chart    
+Description: This chart categorizes sales into four discount bands: High, Medium, Low, and None.   
+Purpose: To understand the effect of discount levels on sales performance and guide future discount strategies.        
+5. Sum of Units Sold by Product   
+Visual: Bar Chart   
+Description: This chart shows the number of units sold for each product (Amarilla, Carretera, Montana, Paseo, Velo, VTT).   
+Purpose: To identify the most and least popular products based on units sold, useful for inventory and production planning.
+
+key insights from profit visuals:            
+1.Total profit   
+visual: Card Type         
+Purpose: The large card displays the total profit value for the selected filters (country,year)    
+2.Gross margin     
+Visual: Gauge chart     
+purpose: To indicate gross margin percentage,giving a quick visual representation of profitability percentage in relation to its target.   
+3.Profit by segment    
+Visual:Donut Chart    
+Desription: This chart shows contribution of each segment to total profit.     
+Purpose:Helps to identify which segment contributes more to total profit and least one.        
+4. Profit by Product    
+Visual :Bar chart   
+Description:This chart shows the profit for each product.    
+Purpose: To identify which products are performing best in terms of profitability.    
+8.Top 3 Profit Products:    
+Description:Table highlights the top 3  most profitable products  along with number of units sold and corresponding profit.    
+Purpose:To know most profitable products with its units sold.    
+9. Total Sales
+Visual: Simple Value Indicator (Box)   
+Purpose: To provide an easy-to-read summary of the total sales.
